@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="CDorst.Common.Functions.JoinCommandLineArguments" Version="1.0.0" />
+    <PackageReference Include="CDorst.Common.Functions.PromptCommandInGivenDirectory" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
