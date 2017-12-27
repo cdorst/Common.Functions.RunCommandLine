@@ -1,7 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Description>Helper for running a command line</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>CDorst.Common.Functions.RunCommandLine</PackageId>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Common.Functions.JoinCommandLineArguments" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
